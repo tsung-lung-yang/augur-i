@@ -7,3 +7,4 @@ wandb/
 *.pt
 *.pth
 *.safetensors
+runs/

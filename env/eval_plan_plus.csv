@@ -1,0 +1,1009 @@
+phase,suite,orig_task,split,category,task_ids_index,rep
+pilot,libero_10,3,dev,Background Textures,35,0
+pilot,libero_10,3,dev,Background Textures,48,0
+pilot,libero_10,3,dev,Background Textures,47,0
+pilot,libero_10,3,dev,Background Textures,55,0
+pilot,libero_10,3,dev,Background Textures,44,0
+pilot,libero_10,3,dev,Camera Viewpoints,804,0
+pilot,libero_10,3,dev,Camera Viewpoints,814,0
+pilot,libero_10,3,dev,Camera Viewpoints,794,0
+pilot,libero_10,3,dev,Camera Viewpoints,827,0
+pilot,libero_10,3,dev,Camera Viewpoints,781,0
+pilot,libero_10,3,dev,Language Instructions,1230,0
+pilot,libero_10,3,dev,Language Instructions,1241,0
+pilot,libero_10,3,dev,Language Instructions,1254,0
+pilot,libero_10,3,dev,Language Instructions,1219,0
+pilot,libero_10,3,dev,Language Instructions,1215,0
+pilot,libero_10,3,dev,Light Conditions,2318,0
+pilot,libero_10,3,dev,Light Conditions,2319,0
+pilot,libero_10,3,dev,Light Conditions,2288,0
+pilot,libero_10,3,dev,Light Conditions,2290,0
+pilot,libero_10,3,dev,Light Conditions,2292,0
+pilot,libero_10,3,dev,Objects Layout,1978,0
+pilot,libero_10,3,dev,Objects Layout,1981,0
+pilot,libero_10,3,dev,Objects Layout,1975,0
+pilot,libero_10,3,dev,Objects Layout,1976,0
+pilot,libero_10,3,dev,Objects Layout,1965,0
+pilot,libero_10,3,dev,Robot Initial States,437,0
+pilot,libero_10,3,dev,Robot Initial States,447,0
+pilot,libero_10,3,dev,Robot Initial States,452,0
+pilot,libero_10,3,dev,Robot Initial States,433,0
+pilot,libero_10,3,dev,Robot Initial States,435,0
+pilot,libero_10,3,dev,Sensor Noise,1649,0
+pilot,libero_10,3,dev,Sensor Noise,1628,0
+pilot,libero_10,3,dev,Sensor Noise,1660,0
+pilot,libero_10,3,dev,Sensor Noise,1617,0
+pilot,libero_10,3,dev,Sensor Noise,1656,0
+pilot,libero_10,4,dev,Background Textures,205,0
+pilot,libero_10,4,dev,Background Textures,218,0
+pilot,libero_10,4,dev,Background Textures,225,0
+pilot,libero_10,4,dev,Background Textures,215,0
+pilot,libero_10,4,dev,Background Textures,210,0
+pilot,libero_10,4,dev,Camera Viewpoints,859,0
+pilot,libero_10,4,dev,Camera Viewpoints,857,0
+pilot,libero_10,4,dev,Camera Viewpoints,831,0
+pilot,libero_10,4,dev,Camera Viewpoints,829,0
+pilot,libero_10,4,dev,Camera Viewpoints,844,0
+pilot,libero_10,4,dev,Language Instructions,1281,0
+pilot,libero_10,4,dev,Language Instructions,1259,0
+pilot,libero_10,4,dev,Language Instructions,1263,0
+pilot,libero_10,4,dev,Language Instructions,1255,0
+pilot,libero_10,4,dev,Language Instructions,1258,0
+pilot,libero_10,4,dev,Light Conditions,2450,0
+pilot,libero_10,4,dev,Light Conditions,2452,0
+pilot,libero_10,4,dev,Light Conditions,2461,0
+pilot,libero_10,4,dev,Light Conditions,2463,0
+pilot,libero_10,4,dev,Light Conditions,2435,0
+pilot,libero_10,4,dev,Objects Layout,2145,0
+pilot,libero_10,4,dev,Objects Layout,2135,0
+pilot,libero_10,4,dev,Objects Layout,2130,0
+pilot,libero_10,4,dev,Objects Layout,2127,0
+pilot,libero_10,4,dev,Objects Layout,2151,0
+pilot,libero_10,4,dev,Robot Initial States,453,0
+pilot,libero_10,4,dev,Robot Initial States,474,0
+pilot,libero_10,4,dev,Robot Initial States,481,0
+pilot,libero_10,4,dev,Robot Initial States,486,0
+pilot,libero_10,4,dev,Robot Initial States,454,0
+pilot,libero_10,4,dev,Sensor Noise,1686,0
+pilot,libero_10,4,dev,Sensor Noise,1691,0
+pilot,libero_10,4,dev,Sensor Noise,1684,0
+pilot,libero_10,4,dev,Sensor Noise,1697,0
+pilot,libero_10,4,dev,Sensor Noise,1663,0
+pilot,libero_10,7,dev,Background Textures,142,0
+pilot,libero_10,7,dev,Background Textures,139,0
+pilot,libero_10,7,dev,Background Textures,138,0
+pilot,libero_10,7,dev,Background Textures,143,0
+pilot,libero_10,7,dev,Background Textures,140,0
+pilot,libero_10,7,dev,Camera Viewpoints,970,0
+pilot,libero_10,7,dev,Camera Viewpoints,995,0
+pilot,libero_10,7,dev,Camera Viewpoints,1007,0
+pilot,libero_10,7,dev,Camera Viewpoints,1014,0
+pilot,libero_10,7,dev,Camera Viewpoints,1000,0
+pilot,libero_10,7,dev,Language Instructions,1404,0
+pilot,libero_10,7,dev,Language Instructions,1400,0
+pilot,libero_10,7,dev,Language Instructions,1408,0
+pilot,libero_10,7,dev,Language Instructions,1376,0
+pilot,libero_10,7,dev,Language Instructions,1391,0
+pilot,libero_10,7,dev,Light Conditions,2398,0
+pilot,libero_10,7,dev,Light Conditions,2400,0
+pilot,libero_10,7,dev,Light Conditions,2401,0
+pilot,libero_10,7,dev,Light Conditions,2399,0
+pilot,libero_10,7,dev,Light Conditions,2401,1
+pilot,libero_10,7,dev,Objects Layout,2053,0
+pilot,libero_10,7,dev,Objects Layout,2051,0
+pilot,libero_10,7,dev,Objects Layout,2049,0
+pilot,libero_10,7,dev,Objects Layout,2055,0
+pilot,libero_10,7,dev,Objects Layout,2056,0
+pilot,libero_10,7,dev,Robot Initial States,589,0
+pilot,libero_10,7,dev,Robot Initial States,597,0
+pilot,libero_10,7,dev,Robot Initial States,594,0
+pilot,libero_10,7,dev,Robot Initial States,604,0
+pilot,libero_10,7,dev,Robot Initial States,570,0
+pilot,libero_10,7,dev,Sensor Noise,1810,0
+pilot,libero_10,7,dev,Sensor Noise,1813,0
+pilot,libero_10,7,dev,Sensor Noise,1818,0
+pilot,libero_10,7,dev,Sensor Noise,1800,0
+pilot,libero_10,7,dev,Sensor Noise,1822,0
+pilot,libero_goal,0,dev,Background Textures,12,0
+pilot,libero_goal,0,dev,Background Textures,26,0
+pilot,libero_goal,0,dev,Background Textures,13,0
+pilot,libero_goal,0,dev,Background Textures,3,0
+pilot,libero_goal,0,dev,Background Textures,14,0
+pilot,libero_goal,0,dev,Camera Viewpoints,702,0
+pilot,libero_goal,0,dev,Camera Viewpoints,705,0
+pilot,libero_goal,0,dev,Camera Viewpoints,691,0
+pilot,libero_goal,0,dev,Camera Viewpoints,695,0
+pilot,libero_goal,0,dev,Camera Viewpoints,692,0
+pilot,libero_goal,0,dev,Language Instructions,1143,0
+pilot,libero_goal,0,dev,Language Instructions,1107,0
+pilot,libero_goal,0,dev,Language Instructions,1135,0
+pilot,libero_goal,0,dev,Language Instructions,1125,0
+pilot,libero_goal,0,dev,Language Instructions,1121,0
+pilot,libero_goal,0,dev,Light Conditions,2327,0
+pilot,libero_goal,0,dev,Light Conditions,2312,0
+pilot,libero_goal,0,dev,Light Conditions,2321,0
+pilot,libero_goal,0,dev,Light Conditions,2334,0
+pilot,libero_goal,0,dev,Light Conditions,2314,0
+pilot,libero_goal,0,dev,Objects Layout,1891,0
+pilot,libero_goal,0,dev,Objects Layout,1909,0
+pilot,libero_goal,0,dev,Objects Layout,1912,0
+pilot,libero_goal,0,dev,Objects Layout,1900,0
+pilot,libero_goal,0,dev,Objects Layout,1918,0
+pilot,libero_goal,0,dev,Robot Initial States,286,0
+pilot,libero_goal,0,dev,Robot Initial States,321,0
+pilot,libero_goal,0,dev,Robot Initial States,306,0
+pilot,libero_goal,0,dev,Robot Initial States,299,0
+pilot,libero_goal,0,dev,Robot Initial States,302,0
+pilot,libero_goal,0,dev,Sensor Noise,1542,0
+pilot,libero_goal,0,dev,Sensor Noise,1547,0
+pilot,libero_goal,0,dev,Sensor Noise,1538,0
+pilot,libero_goal,0,dev,Sensor Noise,1518,0
+pilot,libero_goal,0,dev,Sensor Noise,1543,0
+pilot,libero_goal,2,dev,Background Textures,254,0
+pilot,libero_goal,2,dev,Background Textures,262,0
+pilot,libero_goal,2,dev,Background Textures,263,0
+pilot,libero_goal,2,dev,Background Textures,243,0
+pilot,libero_goal,2,dev,Background Textures,269,0
+pilot,libero_goal,2,dev,Camera Viewpoints,780,0
+pilot,libero_goal,2,dev,Camera Viewpoints,775,0
+pilot,libero_goal,2,dev,Camera Viewpoints,750,0
+pilot,libero_goal,2,dev,Camera Viewpoints,758,0
+pilot,libero_goal,2,dev,Camera Viewpoints,763,0
+pilot,libero_goal,2,dev,Language Instructions,1194,0
+pilot,libero_goal,2,dev,Language Instructions,1201,0
+pilot,libero_goal,2,dev,Language Instructions,1185,0
+pilot,libero_goal,2,dev,Language Instructions,1192,0
+pilot,libero_goal,2,dev,Language Instructions,1188,0
+pilot,libero_goal,2,dev,Light Conditions,2546,0
+pilot,libero_goal,2,dev,Light Conditions,2547,0
+pilot,libero_goal,2,dev,Light Conditions,2542,0
+pilot,libero_goal,2,dev,Light Conditions,2552,0
+pilot,libero_goal,2,dev,Light Conditions,2549,0
+pilot,libero_goal,2,dev,Objects Layout,2227,0
+pilot,libero_goal,2,dev,Objects Layout,2249,0
+pilot,libero_goal,2,dev,Objects Layout,2260,0
+pilot,libero_goal,2,dev,Objects Layout,2253,0
+pilot,libero_goal,2,dev,Objects Layout,2242,0
+pilot,libero_goal,2,dev,Robot Initial States,374,0
+pilot,libero_goal,2,dev,Robot Initial States,364,0
+pilot,libero_goal,2,dev,Robot Initial States,387,0
+pilot,libero_goal,2,dev,Robot Initial States,388,0
+pilot,libero_goal,2,dev,Robot Initial States,373,0
+pilot,libero_goal,2,dev,Sensor Noise,1583,0
+pilot,libero_goal,2,dev,Sensor Noise,1589,0
+pilot,libero_goal,2,dev,Sensor Noise,1605,0
+pilot,libero_goal,2,dev,Sensor Noise,1614,0
+pilot,libero_goal,2,dev,Sensor Noise,1599,0
+pilot,libero_goal,4,dev,Background Textures,146,0
+pilot,libero_goal,4,dev,Background Textures,147,0
+pilot,libero_goal,4,dev,Background Textures,148,0
+pilot,libero_goal,4,dev,Background Textures,139,0
+pilot,libero_goal,4,dev,Background Textures,149,0
+pilot,libero_goal,4,dev,Camera Viewpoints,837,0
+pilot,libero_goal,4,dev,Camera Viewpoints,848,0
+pilot,libero_goal,4,dev,Camera Viewpoints,835,0
+pilot,libero_goal,4,dev,Camera Viewpoints,875,0
+pilot,libero_goal,4,dev,Camera Viewpoints,839,0
+pilot,libero_goal,4,dev,Language Instructions,1252,0
+pilot,libero_goal,4,dev,Language Instructions,1274,0
+pilot,libero_goal,4,dev,Language Instructions,1287,0
+pilot,libero_goal,4,dev,Language Instructions,1267,0
+pilot,libero_goal,4,dev,Language Instructions,1260,0
+pilot,libero_goal,4,dev,Light Conditions,2472,0
+pilot,libero_goal,4,dev,Light Conditions,2473,0
+pilot,libero_goal,4,dev,Light Conditions,2476,0
+pilot,libero_goal,4,dev,Light Conditions,2479,0
+pilot,libero_goal,4,dev,Light Conditions,2477,0
+pilot,libero_goal,4,dev,Objects Layout,2104,0
+pilot,libero_goal,4,dev,Objects Layout,2099,0
+pilot,libero_goal,4,dev,Objects Layout,2114,0
+pilot,libero_goal,4,dev,Objects Layout,2117,0
+pilot,libero_goal,4,dev,Objects Layout,2112,0
+pilot,libero_goal,4,dev,Robot Initial States,455,0
+pilot,libero_goal,4,dev,Robot Initial States,487,0
+pilot,libero_goal,4,dev,Robot Initial States,459,0
+pilot,libero_goal,4,dev,Robot Initial States,456,0
+pilot,libero_goal,4,dev,Robot Initial States,448,0
+pilot,libero_goal,4,dev,Sensor Noise,1690,0
+pilot,libero_goal,4,dev,Sensor Noise,1679,0
+pilot,libero_goal,4,dev,Sensor Noise,1692,0
+pilot,libero_goal,4,dev,Sensor Noise,1702,0
+pilot,libero_goal,4,dev,Sensor Noise,1700,0
+pilot,libero_object,0,dev,Background Textures,0,0
+pilot,libero_object,0,dev,Background Textures,2,0
+pilot,libero_object,0,dev,Background Textures,24,0
+pilot,libero_object,0,dev,Background Textures,23,0
+pilot,libero_object,0,dev,Background Textures,1,0
+pilot,libero_object,0,dev,Camera Viewpoints,647,0
+pilot,libero_object,0,dev,Camera Viewpoints,651,0
+pilot,libero_object,0,dev,Camera Viewpoints,661,0
+pilot,libero_object,0,dev,Camera Viewpoints,653,0
+pilot,libero_object,0,dev,Camera Viewpoints,654,0
+pilot,libero_object,0,dev,Language Instructions,1051,0
+pilot,libero_object,0,dev,Language Instructions,1050,0
+pilot,libero_object,0,dev,Language Instructions,1057,0
+pilot,libero_object,0,dev,Language Instructions,1058,0
+pilot,libero_object,0,dev,Language Instructions,1053,0
+pilot,libero_object,0,dev,Light Conditions,2242,0
+pilot,libero_object,0,dev,Light Conditions,2240,0
+pilot,libero_object,0,dev,Light Conditions,2238,0
+pilot,libero_object,0,dev,Light Conditions,2256,0
+pilot,libero_object,0,dev,Light Conditions,2248,0
+pilot,libero_object,0,dev,Objects Layout,1843,0
+pilot,libero_object,0,dev,Objects Layout,1831,0
+pilot,libero_object,0,dev,Objects Layout,1857,0
+pilot,libero_object,0,dev,Objects Layout,1849,0
+pilot,libero_object,0,dev,Objects Layout,1833,0
+pilot,libero_object,0,dev,Robot Initial States,248,0
+pilot,libero_object,0,dev,Robot Initial States,288,0
+pilot,libero_object,0,dev,Robot Initial States,283,0
+pilot,libero_object,0,dev,Robot Initial States,268,0
+pilot,libero_object,0,dev,Robot Initial States,266,0
+pilot,libero_object,0,dev,Sensor Noise,1413,0
+pilot,libero_object,0,dev,Sensor Noise,1410,0
+pilot,libero_object,0,dev,Sensor Noise,1409,0
+pilot,libero_object,0,dev,Sensor Noise,1437,0
+pilot,libero_object,0,dev,Sensor Noise,1397,0
+pilot,libero_object,1,dev,Background Textures,126,0
+pilot,libero_object,1,dev,Background Textures,124,0
+pilot,libero_object,1,dev,Background Textures,125,0
+pilot,libero_object,1,dev,Background Textures,122,0
+pilot,libero_object,1,dev,Background Textures,123,0
+pilot,libero_object,1,dev,Camera Viewpoints,671,0
+pilot,libero_object,1,dev,Camera Viewpoints,676,0
+pilot,libero_object,1,dev,Camera Viewpoints,677,0
+pilot,libero_object,1,dev,Camera Viewpoints,684,0
+pilot,libero_object,1,dev,Camera Viewpoints,680,0
+pilot,libero_object,1,dev,Language Instructions,1094,0
+pilot,libero_object,1,dev,Language Instructions,1098,0
+pilot,libero_object,1,dev,Language Instructions,1093,0
+pilot,libero_object,1,dev,Language Instructions,1089,0
+pilot,libero_object,1,dev,Language Instructions,1086,0
+pilot,libero_object,1,dev,Light Conditions,2388,0
+pilot,libero_object,1,dev,Light Conditions,2389,0
+pilot,libero_object,1,dev,Light Conditions,2387,0
+pilot,libero_object,1,dev,Light Conditions,2390,0
+pilot,libero_object,1,dev,Light Conditions,2388,1
+pilot,libero_object,1,dev,Objects Layout,1991,0
+pilot,libero_object,1,dev,Objects Layout,1989,0
+pilot,libero_object,1,dev,Objects Layout,1999,0
+pilot,libero_object,1,dev,Objects Layout,1990,0
+pilot,libero_object,1,dev,Objects Layout,2008,0
+pilot,libero_object,1,dev,Robot Initial States,302,0
+pilot,libero_object,1,dev,Robot Initial States,310,0
+pilot,libero_object,1,dev,Robot Initial States,312,0
+pilot,libero_object,1,dev,Robot Initial States,299,0
+pilot,libero_object,1,dev,Robot Initial States,314,0
+pilot,libero_object,1,dev,Sensor Noise,1440,0
+pilot,libero_object,1,dev,Sensor Noise,1438,0
+pilot,libero_object,1,dev,Sensor Noise,1477,0
+pilot,libero_object,1,dev,Sensor Noise,1472,0
+pilot,libero_object,1,dev,Sensor Noise,1439,0
+pilot,libero_object,9,dev,Background Textures,173,0
+pilot,libero_object,9,dev,Background Textures,171,0
+pilot,libero_object,9,dev,Background Textures,203,0
+pilot,libero_object,9,dev,Background Textures,179,0
+pilot,libero_object,9,dev,Background Textures,205,0
+pilot,libero_object,9,dev,Camera Viewpoints,1028,0
+pilot,libero_object,9,dev,Camera Viewpoints,1026,0
+pilot,libero_object,9,dev,Camera Viewpoints,1020,0
+pilot,libero_object,9,dev,Camera Viewpoints,1022,0
+pilot,libero_object,9,dev,Camera Viewpoints,1021,0
+pilot,libero_object,9,dev,Language Instructions,1394,0
+pilot,libero_object,9,dev,Language Instructions,1381,0
+pilot,libero_object,9,dev,Language Instructions,1388,0
+pilot,libero_object,9,dev,Language Instructions,1364,0
+pilot,libero_object,9,dev,Language Instructions,1363,0
+pilot,libero_object,9,dev,Light Conditions,2434,0
+pilot,libero_object,9,dev,Light Conditions,2437,0
+pilot,libero_object,9,dev,Light Conditions,2454,0
+pilot,libero_object,9,dev,Light Conditions,2432,0
+pilot,libero_object,9,dev,Light Conditions,2440,0
+pilot,libero_object,9,dev,Objects Layout,2092,0
+pilot,libero_object,9,dev,Objects Layout,2119,0
+pilot,libero_object,9,dev,Objects Layout,2130,0
+pilot,libero_object,9,dev,Objects Layout,2124,0
+pilot,libero_object,9,dev,Objects Layout,2097,0
+pilot,libero_object,9,dev,Robot Initial States,601,0
+pilot,libero_object,9,dev,Robot Initial States,611,0
+pilot,libero_object,9,dev,Robot Initial States,640,0
+pilot,libero_object,9,dev,Robot Initial States,604,0
+pilot,libero_object,9,dev,Robot Initial States,610,0
+pilot,libero_object,9,dev,Sensor Noise,1815,0
+pilot,libero_object,9,dev,Sensor Noise,1797,0
+pilot,libero_object,9,dev,Sensor Noise,1784,0
+pilot,libero_object,9,dev,Sensor Noise,1801,0
+pilot,libero_object,9,dev,Sensor Noise,1791,0
+pilot,libero_spatial,1,dev,Background Textures,127,0
+pilot,libero_spatial,1,dev,Background Textures,134,0
+pilot,libero_spatial,1,dev,Background Textures,136,0
+pilot,libero_spatial,1,dev,Background Textures,128,0
+pilot,libero_spatial,1,dev,Background Textures,135,0
+pilot,libero_spatial,1,dev,Camera Viewpoints,639,0
+pilot,libero_spatial,1,dev,Camera Viewpoints,633,0
+pilot,libero_spatial,1,dev,Camera Viewpoints,627,0
+pilot,libero_spatial,1,dev,Camera Viewpoints,621,0
+pilot,libero_spatial,1,dev,Camera Viewpoints,626,0
+pilot,libero_spatial,1,dev,Language Instructions,1037,0
+pilot,libero_spatial,1,dev,Language Instructions,1060,0
+pilot,libero_spatial,1,dev,Language Instructions,1050,0
+pilot,libero_spatial,1,dev,Language Instructions,1056,0
+pilot,libero_spatial,1,dev,Language Instructions,1036,0
+pilot,libero_spatial,1,dev,Light Conditions,2286,0
+pilot,libero_spatial,1,dev,Light Conditions,2283,0
+pilot,libero_spatial,1,dev,Light Conditions,2281,0
+pilot,libero_spatial,1,dev,Light Conditions,2287,0
+pilot,libero_spatial,1,dev,Light Conditions,2289,0
+pilot,libero_spatial,1,dev,Objects Layout,1939,0
+pilot,libero_spatial,1,dev,Objects Layout,1924,0
+pilot,libero_spatial,1,dev,Objects Layout,1926,0
+pilot,libero_spatial,1,dev,Objects Layout,1942,0
+pilot,libero_spatial,1,dev,Objects Layout,1941,0
+pilot,libero_spatial,1,dev,Robot Initial States,314,0
+pilot,libero_spatial,1,dev,Robot Initial States,308,0
+pilot,libero_spatial,1,dev,Robot Initial States,324,0
+pilot,libero_spatial,1,dev,Robot Initial States,295,0
+pilot,libero_spatial,1,dev,Robot Initial States,302,0
+pilot,libero_spatial,1,dev,Sensor Noise,1414,0
+pilot,libero_spatial,1,dev,Sensor Noise,1423,0
+pilot,libero_spatial,1,dev,Sensor Noise,1424,0
+pilot,libero_spatial,1,dev,Sensor Noise,1427,0
+pilot,libero_spatial,1,dev,Sensor Noise,1408,0
+pilot,libero_spatial,4,dev,Background Textures,94,0
+pilot,libero_spatial,4,dev,Background Textures,84,0
+pilot,libero_spatial,4,dev,Background Textures,83,0
+pilot,libero_spatial,4,dev,Background Textures,75,0
+pilot,libero_spatial,4,dev,Background Textures,85,0
+pilot,libero_spatial,4,dev,Camera Viewpoints,755,0
+pilot,libero_spatial,4,dev,Camera Viewpoints,748,0
+pilot,libero_spatial,4,dev,Camera Viewpoints,772,0
+pilot,libero_spatial,4,dev,Camera Viewpoints,757,0
+pilot,libero_spatial,4,dev,Camera Viewpoints,741,0
+pilot,libero_spatial,4,dev,Language Instructions,1149,0
+pilot,libero_spatial,4,dev,Language Instructions,1162,0
+pilot,libero_spatial,4,dev,Language Instructions,1157,0
+pilot,libero_spatial,4,dev,Language Instructions,1160,0
+pilot,libero_spatial,4,dev,Language Instructions,1138,0
+pilot,libero_spatial,4,dev,Light Conditions,2226,0
+pilot,libero_spatial,4,dev,Light Conditions,2234,0
+pilot,libero_spatial,4,dev,Light Conditions,2232,0
+pilot,libero_spatial,4,dev,Light Conditions,2211,0
+pilot,libero_spatial,4,dev,Light Conditions,2205,0
+pilot,libero_spatial,4,dev,Objects Layout,1807,0
+pilot,libero_spatial,4,dev,Objects Layout,1817,0
+pilot,libero_spatial,4,dev,Objects Layout,1845,0
+pilot,libero_spatial,4,dev,Objects Layout,1848,0
+pilot,libero_spatial,4,dev,Objects Layout,1811,0
+pilot,libero_spatial,4,dev,Robot Initial States,421,0
+pilot,libero_spatial,4,dev,Robot Initial States,412,0
+pilot,libero_spatial,4,dev,Robot Initial States,397,0
+pilot,libero_spatial,4,dev,Robot Initial States,423,0
+pilot,libero_spatial,4,dev,Robot Initial States,392,0
+pilot,libero_spatial,4,dev,Sensor Noise,1523,0
+pilot,libero_spatial,4,dev,Sensor Noise,1540,0
+pilot,libero_spatial,4,dev,Sensor Noise,1535,0
+pilot,libero_spatial,4,dev,Sensor Noise,1507,0
+pilot,libero_spatial,4,dev,Sensor Noise,1532,0
+pilot,libero_spatial,5,dev,Background Textures,196,0
+pilot,libero_spatial,5,dev,Background Textures,177,0
+pilot,libero_spatial,5,dev,Background Textures,181,0
+pilot,libero_spatial,5,dev,Background Textures,197,0
+pilot,libero_spatial,5,dev,Background Textures,183,0
+pilot,libero_spatial,5,dev,Camera Viewpoints,807,0
+pilot,libero_spatial,5,dev,Camera Viewpoints,800,0
+pilot,libero_spatial,5,dev,Camera Viewpoints,825,0
+pilot,libero_spatial,5,dev,Camera Viewpoints,814,0
+pilot,libero_spatial,5,dev,Camera Viewpoints,819,0
+pilot,libero_spatial,5,dev,Language Instructions,1196,0
+pilot,libero_spatial,5,dev,Language Instructions,1176,0
+pilot,libero_spatial,5,dev,Language Instructions,1185,0
+pilot,libero_spatial,5,dev,Language Instructions,1181,0
+pilot,libero_spatial,5,dev,Language Instructions,1172,0
+pilot,libero_spatial,5,dev,Light Conditions,2347,0
+pilot,libero_spatial,5,dev,Light Conditions,2336,0
+pilot,libero_spatial,5,dev,Light Conditions,2342,0
+pilot,libero_spatial,5,dev,Light Conditions,2325,0
+pilot,libero_spatial,5,dev,Light Conditions,2320,0
+pilot,libero_spatial,5,dev,Objects Layout,2022,0
+pilot,libero_spatial,5,dev,Objects Layout,2023,0
+pilot,libero_spatial,5,dev,Objects Layout,1996,0
+pilot,libero_spatial,5,dev,Objects Layout,2016,0
+pilot,libero_spatial,5,dev,Objects Layout,2019,0
+pilot,libero_spatial,5,dev,Robot Initial States,455,0
+pilot,libero_spatial,5,dev,Robot Initial States,447,0
+pilot,libero_spatial,5,dev,Robot Initial States,436,0
+pilot,libero_spatial,5,dev,Robot Initial States,437,0
+pilot,libero_spatial,5,dev,Robot Initial States,457,0
+pilot,libero_spatial,5,dev,Sensor Noise,1579,0
+pilot,libero_spatial,5,dev,Sensor Noise,1566,0
+pilot,libero_spatial,5,dev,Sensor Noise,1581,0
+pilot,libero_spatial,5,dev,Sensor Noise,1562,0
+pilot,libero_spatial,5,dev,Sensor Noise,1578,0
+main,libero_10,0,heldout,Background Textures,152,0
+main,libero_10,0,heldout,Background Textures,150,0
+main,libero_10,0,heldout,Background Textures,148,0
+main,libero_10,0,heldout,Camera Viewpoints,695,0
+main,libero_10,0,heldout,Camera Viewpoints,683,0
+main,libero_10,0,heldout,Camera Viewpoints,686,0
+main,libero_10,0,heldout,Language Instructions,1108,0
+main,libero_10,0,heldout,Language Instructions,1124,0
+main,libero_10,0,heldout,Language Instructions,1117,0
+main,libero_10,0,heldout,Light Conditions,2402,0
+main,libero_10,0,heldout,Light Conditions,2403,0
+main,libero_10,0,heldout,Light Conditions,2406,0
+main,libero_10,0,heldout,Objects Layout,2066,0
+main,libero_10,0,heldout,Objects Layout,2077,0
+main,libero_10,0,heldout,Objects Layout,2075,0
+main,libero_10,0,heldout,Robot Initial States,324,0
+main,libero_10,0,heldout,Robot Initial States,298,0
+main,libero_10,0,heldout,Robot Initial States,292,0
+main,libero_10,0,heldout,Sensor Noise,1497,0
+main,libero_10,0,heldout,Sensor Noise,1486,0
+main,libero_10,0,heldout,Sensor Noise,1514,0
+main,libero_10,1,heldout,Background Textures,175,0
+main,libero_10,1,heldout,Background Textures,169,0
+main,libero_10,1,heldout,Background Textures,164,0
+main,libero_10,1,heldout,Camera Viewpoints,706,0
+main,libero_10,1,heldout,Camera Viewpoints,715,0
+main,libero_10,1,heldout,Camera Viewpoints,718,0
+main,libero_10,1,heldout,Language Instructions,1158,0
+main,libero_10,1,heldout,Language Instructions,1149,0
+main,libero_10,1,heldout,Language Instructions,1160,0
+main,libero_10,1,heldout,Light Conditions,2415,0
+main,libero_10,1,heldout,Light Conditions,2428,0
+main,libero_10,1,heldout,Light Conditions,2426,0
+main,libero_10,1,heldout,Objects Layout,2096,0
+main,libero_10,1,heldout,Objects Layout,2110,0
+main,libero_10,1,heldout,Objects Layout,2119,0
+main,libero_10,1,heldout,Robot Initial States,345,0
+main,libero_10,1,heldout,Robot Initial States,361,0
+main,libero_10,1,heldout,Robot Initial States,332,0
+main,libero_10,1,heldout,Sensor Noise,1559,0
+main,libero_10,1,heldout,Sensor Noise,1560,0
+main,libero_10,1,heldout,Sensor Noise,1535,0
+main,libero_10,2,heldout,Background Textures,27,0
+main,libero_10,2,heldout,Background Textures,17,0
+main,libero_10,2,heldout,Background Textures,25,0
+main,libero_10,2,heldout,Camera Viewpoints,756,0
+main,libero_10,2,heldout,Camera Viewpoints,748,0
+main,libero_10,2,heldout,Camera Viewpoints,750,0
+main,libero_10,2,heldout,Language Instructions,1199,0
+main,libero_10,2,heldout,Language Instructions,1207,0
+main,libero_10,2,heldout,Language Instructions,1193,0
+main,libero_10,2,heldout,Light Conditions,2264,0
+main,libero_10,2,heldout,Light Conditions,2263,0
+main,libero_10,2,heldout,Light Conditions,2254,0
+main,libero_10,2,heldout,Objects Layout,1937,0
+main,libero_10,2,heldout,Objects Layout,1942,0
+main,libero_10,2,heldout,Objects Layout,1958,0
+main,libero_10,2,heldout,Robot Initial States,368,0
+main,libero_10,2,heldout,Robot Initial States,393,0
+main,libero_10,2,heldout,Robot Initial States,365,0
+main,libero_10,2,heldout,Sensor Noise,1578,0
+main,libero_10,2,heldout,Sensor Noise,1612,0
+main,libero_10,2,heldout,Sensor Noise,1592,0
+main,libero_10,5,heldout,Background Textures,286,0
+main,libero_10,5,heldout,Background Textures,278,0
+main,libero_10,5,heldout,Background Textures,281,0
+main,libero_10,5,heldout,Camera Viewpoints,882,0
+main,libero_10,5,heldout,Camera Viewpoints,918,0
+main,libero_10,5,heldout,Camera Viewpoints,895,0
+main,libero_10,5,heldout,Language Instructions,1311,0
+main,libero_10,5,heldout,Language Instructions,1322,0
+main,libero_10,5,heldout,Language Instructions,1324,0
+main,libero_10,5,heldout,Light Conditions,2508,0
+main,libero_10,5,heldout,Light Conditions,2503,0
+main,libero_10,5,heldout,Light Conditions,2513,0
+main,libero_10,5,heldout,Objects Layout,2212,0
+main,libero_10,5,heldout,Objects Layout,2197,0
+main,libero_10,5,heldout,Objects Layout,2223,0
+main,libero_10,5,heldout,Robot Initial States,515,0
+main,libero_10,5,heldout,Robot Initial States,506,0
+main,libero_10,5,heldout,Robot Initial States,502,0
+main,libero_10,5,heldout,Sensor Noise,1710,0
+main,libero_10,5,heldout,Sensor Noise,1719,0
+main,libero_10,5,heldout,Sensor Noise,1748,0
+main,libero_10,6,heldout,Background Textures,247,0
+main,libero_10,6,heldout,Background Textures,271,0
+main,libero_10,6,heldout,Background Textures,256,0
+main,libero_10,6,heldout,Camera Viewpoints,931,0
+main,libero_10,6,heldout,Camera Viewpoints,944,0
+main,libero_10,6,heldout,Camera Viewpoints,930,0
+main,libero_10,6,heldout,Language Instructions,1352,0
+main,libero_10,6,heldout,Language Instructions,1348,0
+main,libero_10,6,heldout,Language Instructions,1351,0
+main,libero_10,6,heldout,Light Conditions,2472,0
+main,libero_10,6,heldout,Light Conditions,2489,0
+main,libero_10,6,heldout,Light Conditions,2493,0
+main,libero_10,6,heldout,Objects Layout,2185,0
+main,libero_10,6,heldout,Objects Layout,2183,0
+main,libero_10,6,heldout,Objects Layout,2181,0
+main,libero_10,6,heldout,Robot Initial States,552,0
+main,libero_10,6,heldout,Robot Initial States,540,0
+main,libero_10,6,heldout,Robot Initial States,546,0
+main,libero_10,6,heldout,Sensor Noise,1769,0
+main,libero_10,6,heldout,Sensor Noise,1755,0
+main,libero_10,6,heldout,Sensor Noise,1772,0
+main,libero_10,8,heldout,Background Textures,126,0
+main,libero_10,8,heldout,Background Textures,136,0
+main,libero_10,8,heldout,Background Textures,116,0
+main,libero_10,8,heldout,Camera Viewpoints,1050,0
+main,libero_10,8,heldout,Camera Viewpoints,1035,0
+main,libero_10,8,heldout,Camera Viewpoints,1024,0
+main,libero_10,8,heldout,Language Instructions,1429,0
+main,libero_10,8,heldout,Language Instructions,1436,0
+main,libero_10,8,heldout,Language Instructions,1437,0
+main,libero_10,8,heldout,Light Conditions,2387,0
+main,libero_10,8,heldout,Light Conditions,2382,0
+main,libero_10,8,heldout,Light Conditions,2395,0
+main,libero_10,8,heldout,Objects Layout,2034,0
+main,libero_10,8,heldout,Objects Layout,2025,0
+main,libero_10,8,heldout,Objects Layout,2032,0
+main,libero_10,8,heldout,Robot Initial States,616,0
+main,libero_10,8,heldout,Robot Initial States,613,0
+main,libero_10,8,heldout,Robot Initial States,606,0
+main,libero_10,8,heldout,Sensor Noise,1851,0
+main,libero_10,8,heldout,Sensor Noise,1872,0
+main,libero_10,8,heldout,Sensor Noise,1862,0
+main,libero_10,9,heldout,Background Textures,79,0
+main,libero_10,9,heldout,Background Textures,103,0
+main,libero_10,9,heldout,Background Textures,97,0
+main,libero_10,9,heldout,Camera Viewpoints,1070,0
+main,libero_10,9,heldout,Camera Viewpoints,1094,0
+main,libero_10,9,heldout,Camera Viewpoints,1085,0
+main,libero_10,9,heldout,Language Instructions,1455,0
+main,libero_10,9,heldout,Language Instructions,1451,0
+main,libero_10,9,heldout,Language Instructions,1469,0
+main,libero_10,9,heldout,Light Conditions,2353,0
+main,libero_10,9,heldout,Light Conditions,2340,0
+main,libero_10,9,heldout,Light Conditions,2352,0
+main,libero_10,9,heldout,Objects Layout,2012,0
+main,libero_10,9,heldout,Objects Layout,1990,0
+main,libero_10,9,heldout,Objects Layout,1996,0
+main,libero_10,9,heldout,Robot Initial States,651,0
+main,libero_10,9,heldout,Robot Initial States,658,0
+main,libero_10,9,heldout,Robot Initial States,640,0
+main,libero_10,9,heldout,Sensor Noise,1899,0
+main,libero_10,9,heldout,Sensor Noise,1890,0
+main,libero_10,9,heldout,Sensor Noise,1906,0
+main,libero_goal,1,heldout,Background Textures,133,0
+main,libero_goal,1,heldout,Background Textures,136,0
+main,libero_goal,1,heldout,Background Textures,132,0
+main,libero_goal,1,heldout,Camera Viewpoints,741,0
+main,libero_goal,1,heldout,Camera Viewpoints,731,0
+main,libero_goal,1,heldout,Camera Viewpoints,720,0
+main,libero_goal,1,heldout,Language Instructions,1148,0
+main,libero_goal,1,heldout,Language Instructions,1160,0
+main,libero_goal,1,heldout,Language Instructions,1151,0
+main,libero_goal,1,heldout,Light Conditions,2466,0
+main,libero_goal,1,heldout,Light Conditions,2469,0
+main,libero_goal,1,heldout,Light Conditions,2468,0
+main,libero_goal,1,heldout,Objects Layout,2082,0
+main,libero_goal,1,heldout,Objects Layout,2080,0
+main,libero_goal,1,heldout,Objects Layout,2093,0
+main,libero_goal,1,heldout,Robot Initial States,346,0
+main,libero_goal,1,heldout,Robot Initial States,330,0
+main,libero_goal,1,heldout,Robot Initial States,344,0
+main,libero_goal,1,heldout,Sensor Noise,1553,0
+main,libero_goal,1,heldout,Sensor Noise,1564,0
+main,libero_goal,1,heldout,Sensor Noise,1563,0
+main,libero_goal,3,heldout,Background Textures,71,0
+main,libero_goal,3,heldout,Background Textures,52,0
+main,libero_goal,3,heldout,Background Textures,66,0
+main,libero_goal,3,heldout,Camera Viewpoints,800,0
+main,libero_goal,3,heldout,Camera Viewpoints,830,0
+main,libero_goal,3,heldout,Camera Viewpoints,801,0
+main,libero_goal,3,heldout,Language Instructions,1229,0
+main,libero_goal,3,heldout,Language Instructions,1239,0
+main,libero_goal,3,heldout,Language Instructions,1240,0
+main,libero_goal,3,heldout,Light Conditions,2393,0
+main,libero_goal,3,heldout,Light Conditions,2396,0
+main,libero_goal,3,heldout,Light Conditions,2389,0
+main,libero_goal,3,heldout,Objects Layout,1945,0
+main,libero_goal,3,heldout,Objects Layout,1975,0
+main,libero_goal,3,heldout,Objects Layout,1932,0
+main,libero_goal,3,heldout,Robot Initial States,423,0
+main,libero_goal,3,heldout,Robot Initial States,410,0
+main,libero_goal,3,heldout,Robot Initial States,402,0
+main,libero_goal,3,heldout,Sensor Noise,1640,0
+main,libero_goal,3,heldout,Sensor Noise,1636,0
+main,libero_goal,3,heldout,Sensor Noise,1656,0
+main,libero_goal,5,heldout,Background Textures,81,0
+main,libero_goal,5,heldout,Background Textures,92,0
+main,libero_goal,5,heldout,Background Textures,77,0
+main,libero_goal,5,heldout,Camera Viewpoints,916,0
+main,libero_goal,5,heldout,Camera Viewpoints,898,0
+main,libero_goal,5,heldout,Camera Viewpoints,910,0
+main,libero_goal,5,heldout,Language Instructions,1323,0
+main,libero_goal,5,heldout,Language Instructions,1312,0
+main,libero_goal,5,heldout,Language Instructions,1308,0
+main,libero_goal,5,heldout,Light Conditions,2410,0
+main,libero_goal,5,heldout,Light Conditions,2433,0
+main,libero_goal,5,heldout,Light Conditions,2437,0
+main,libero_goal,5,heldout,Objects Layout,1981,0
+main,libero_goal,5,heldout,Objects Layout,1992,0
+main,libero_goal,5,heldout,Objects Layout,1989,0
+main,libero_goal,5,heldout,Robot Initial States,497,0
+main,libero_goal,5,heldout,Robot Initial States,491,0
+main,libero_goal,5,heldout,Robot Initial States,515,0
+main,libero_goal,5,heldout,Sensor Noise,1730,0
+main,libero_goal,5,heldout,Sensor Noise,1713,0
+main,libero_goal,5,heldout,Sensor Noise,1715,0
+main,libero_goal,6,heldout,Background Textures,162,0
+main,libero_goal,6,heldout,Background Textures,169,0
+main,libero_goal,6,heldout,Background Textures,157,0
+main,libero_goal,6,heldout,Camera Viewpoints,938,0
+main,libero_goal,6,heldout,Camera Viewpoints,939,0
+main,libero_goal,6,heldout,Camera Viewpoints,932,0
+main,libero_goal,6,heldout,Language Instructions,1356,0
+main,libero_goal,6,heldout,Language Instructions,1367,0
+main,libero_goal,6,heldout,Language Instructions,1345,0
+main,libero_goal,6,heldout,Light Conditions,2485,0
+main,libero_goal,6,heldout,Light Conditions,2501,0
+main,libero_goal,6,heldout,Light Conditions,2490,0
+main,libero_goal,6,heldout,Objects Layout,2153,0
+main,libero_goal,6,heldout,Objects Layout,2128,0
+main,libero_goal,6,heldout,Objects Layout,2165,0
+main,libero_goal,6,heldout,Robot Initial States,557,0
+main,libero_goal,6,heldout,Robot Initial States,541,0
+main,libero_goal,6,heldout,Robot Initial States,576,0
+main,libero_goal,6,heldout,Sensor Noise,1776,0
+main,libero_goal,6,heldout,Sensor Noise,1752,0
+main,libero_goal,6,heldout,Sensor Noise,1774,0
+main,libero_goal,7,heldout,Background Textures,271,0
+main,libero_goal,7,heldout,Background Textures,277,0
+main,libero_goal,7,heldout,Background Textures,278,0
+main,libero_goal,7,heldout,Camera Viewpoints,980,0
+main,libero_goal,7,heldout,Camera Viewpoints,994,0
+main,libero_goal,7,heldout,Camera Viewpoints,1002,0
+main,libero_goal,7,heldout,Language Instructions,1421,0
+main,libero_goal,7,heldout,Language Instructions,1406,0
+main,libero_goal,7,heldout,Language Instructions,1399,0
+main,libero_goal,7,heldout,Light Conditions,2572,0
+main,libero_goal,7,heldout,Light Conditions,2580,0
+main,libero_goal,7,heldout,Light Conditions,2581,0
+main,libero_goal,7,heldout,Objects Layout,2305,0
+main,libero_goal,7,heldout,Objects Layout,2268,0
+main,libero_goal,7,heldout,Objects Layout,2298,0
+main,libero_goal,7,heldout,Robot Initial States,579,0
+main,libero_goal,7,heldout,Robot Initial States,612,0
+main,libero_goal,7,heldout,Robot Initial States,597,0
+main,libero_goal,7,heldout,Sensor Noise,1794,0
+main,libero_goal,7,heldout,Sensor Noise,1811,0
+main,libero_goal,7,heldout,Sensor Noise,1798,0
+main,libero_goal,8,heldout,Background Textures,128,0
+main,libero_goal,8,heldout,Background Textures,118,0
+main,libero_goal,8,heldout,Background Textures,110,0
+main,libero_goal,8,heldout,Camera Viewpoints,1046,0
+main,libero_goal,8,heldout,Camera Viewpoints,1047,0
+main,libero_goal,8,heldout,Camera Viewpoints,1038,0
+main,libero_goal,8,heldout,Language Instructions,1454,0
+main,libero_goal,8,heldout,Language Instructions,1427,0
+main,libero_goal,8,heldout,Language Instructions,1450,0
+main,libero_goal,8,heldout,Light Conditions,2450,0
+main,libero_goal,8,heldout,Light Conditions,2460,0
+main,libero_goal,8,heldout,Light Conditions,2461,0
+main,libero_goal,8,heldout,Objects Layout,2060,0
+main,libero_goal,8,heldout,Objects Layout,2032,0
+main,libero_goal,8,heldout,Objects Layout,2063,0
+main,libero_goal,8,heldout,Robot Initial States,616,0
+main,libero_goal,8,heldout,Robot Initial States,642,0
+main,libero_goal,8,heldout,Robot Initial States,622,0
+main,libero_goal,8,heldout,Sensor Noise,1822,0
+main,libero_goal,8,heldout,Sensor Noise,1843,0
+main,libero_goal,8,heldout,Sensor Noise,1817,0
+main,libero_goal,9,heldout,Background Textures,208,0
+main,libero_goal,9,heldout,Background Textures,204,0
+main,libero_goal,9,heldout,Background Textures,226,0
+main,libero_goal,9,heldout,Camera Viewpoints,1081,0
+main,libero_goal,9,heldout,Camera Viewpoints,1072,0
+main,libero_goal,9,heldout,Camera Viewpoints,1094,0
+main,libero_goal,9,heldout,Language Instructions,1494,0
+main,libero_goal,9,heldout,Language Instructions,1502,0
+main,libero_goal,9,heldout,Language Instructions,1466,0
+main,libero_goal,9,heldout,Light Conditions,2523,0
+main,libero_goal,9,heldout,Light Conditions,2520,0
+main,libero_goal,9,heldout,Light Conditions,2534,0
+main,libero_goal,9,heldout,Objects Layout,2219,0
+main,libero_goal,9,heldout,Objects Layout,2206,0
+main,libero_goal,9,heldout,Objects Layout,2215,0
+main,libero_goal,9,heldout,Robot Initial States,668,0
+main,libero_goal,9,heldout,Robot Initial States,661,0
+main,libero_goal,9,heldout,Robot Initial States,654,0
+main,libero_goal,9,heldout,Sensor Noise,1885,0
+main,libero_goal,9,heldout,Sensor Noise,1877,0
+main,libero_goal,9,heldout,Sensor Noise,1853,0
+main,libero_object,2,heldout,Background Textures,226,0
+main,libero_object,2,heldout,Background Textures,228,0
+main,libero_object,2,heldout,Background Textures,217,0
+main,libero_object,2,heldout,Camera Viewpoints,705,0
+main,libero_object,2,heldout,Camera Viewpoints,712,0
+main,libero_object,2,heldout,Camera Viewpoints,709,0
+main,libero_object,2,heldout,Language Instructions,1102,0
+main,libero_object,2,heldout,Language Instructions,1101,0
+main,libero_object,2,heldout,Language Instructions,1118,0
+main,libero_object,2,heldout,Light Conditions,2473,0
+main,libero_object,2,heldout,Light Conditions,2483,0
+main,libero_object,2,heldout,Light Conditions,2486,0
+main,libero_object,2,heldout,Objects Layout,2172,0
+main,libero_object,2,heldout,Objects Layout,2141,0
+main,libero_object,2,heldout,Objects Layout,2154,0
+main,libero_object,2,heldout,Robot Initial States,335,0
+main,libero_object,2,heldout,Robot Initial States,338,0
+main,libero_object,2,heldout,Robot Initial States,347,0
+main,libero_object,2,heldout,Sensor Noise,1499,0
+main,libero_object,2,heldout,Sensor Noise,1513,0
+main,libero_object,2,heldout,Sensor Noise,1503,0
+main,libero_object,3,heldout,Background Textures,40,0
+main,libero_object,3,heldout,Background Textures,68,0
+main,libero_object,3,heldout,Background Textures,53,0
+main,libero_object,3,heldout,Camera Viewpoints,765,0
+main,libero_object,3,heldout,Camera Viewpoints,739,0
+main,libero_object,3,heldout,Camera Viewpoints,742,0
+main,libero_object,3,heldout,Language Instructions,1136,0
+main,libero_object,3,heldout,Language Instructions,1147,0
+main,libero_object,3,heldout,Language Instructions,1145,0
+main,libero_object,3,heldout,Light Conditions,2295,0
+main,libero_object,3,heldout,Light Conditions,2272,0
+main,libero_object,3,heldout,Light Conditions,2286,0
+main,libero_object,3,heldout,Objects Layout,1877,0
+main,libero_object,3,heldout,Objects Layout,1860,0
+main,libero_object,3,heldout,Objects Layout,1888,0
+main,libero_object,3,heldout,Robot Initial States,403,0
+main,libero_object,3,heldout,Robot Initial States,398,0
+main,libero_object,3,heldout,Robot Initial States,389,0
+main,libero_object,3,heldout,Sensor Noise,1527,0
+main,libero_object,3,heldout,Sensor Noise,1538,0
+main,libero_object,3,heldout,Sensor Noise,1552,0
+main,libero_object,4,heldout,Background Textures,136,0
+main,libero_object,4,heldout,Background Textures,134,0
+main,libero_object,4,heldout,Background Textures,137,0
+main,libero_object,4,heldout,Camera Viewpoints,795,0
+main,libero_object,4,heldout,Camera Viewpoints,823,0
+main,libero_object,4,heldout,Camera Viewpoints,789,0
+main,libero_object,4,heldout,Language Instructions,1166,0
+main,libero_object,4,heldout,Language Instructions,1184,0
+main,libero_object,4,heldout,Language Instructions,1183,0
+main,libero_object,4,heldout,Light Conditions,2393,0
+main,libero_object,4,heldout,Light Conditions,2395,0
+main,libero_object,4,heldout,Light Conditions,2396,0
+main,libero_object,4,heldout,Objects Layout,2026,0
+main,libero_object,4,heldout,Objects Layout,2014,0
+main,libero_object,4,heldout,Objects Layout,2019,0
+main,libero_object,4,heldout,Robot Initial States,444,0
+main,libero_object,4,heldout,Robot Initial States,432,0
+main,libero_object,4,heldout,Robot Initial States,426,0
+main,libero_object,4,heldout,Sensor Noise,1582,0
+main,libero_object,4,heldout,Sensor Noise,1584,0
+main,libero_object,4,heldout,Sensor Noise,1569,0
+main,libero_object,5,heldout,Background Textures,242,0
+main,libero_object,5,heldout,Background Textures,236,0
+main,libero_object,5,heldout,Background Textures,247,0
+main,libero_object,5,heldout,Camera Viewpoints,868,0
+main,libero_object,5,heldout,Camera Viewpoints,845,0
+main,libero_object,5,heldout,Camera Viewpoints,838,0
+main,libero_object,5,heldout,Language Instructions,1224,0
+main,libero_object,5,heldout,Language Instructions,1202,0
+main,libero_object,5,heldout,Language Instructions,1228,0
+main,libero_object,5,heldout,Light Conditions,2502,0
+main,libero_object,5,heldout,Light Conditions,2511,0
+main,libero_object,5,heldout,Light Conditions,2496,0
+main,libero_object,5,heldout,Objects Layout,2174,0
+main,libero_object,5,heldout,Objects Layout,2216,0
+main,libero_object,5,heldout,Objects Layout,2178,0
+main,libero_object,5,heldout,Robot Initial States,456,0
+main,libero_object,5,heldout,Robot Initial States,464,0
+main,libero_object,5,heldout,Robot Initial States,481,0
+main,libero_object,5,heldout,Sensor Noise,1632,0
+main,libero_object,5,heldout,Sensor Noise,1651,0
+main,libero_object,5,heldout,Sensor Noise,1614,0
+main,libero_object,6,heldout,Background Textures,94,0
+main,libero_object,6,heldout,Background Textures,87,0
+main,libero_object,6,heldout,Background Textures,82,0
+main,libero_object,6,heldout,Camera Viewpoints,884,0
+main,libero_object,6,heldout,Camera Viewpoints,914,0
+main,libero_object,6,heldout,Camera Viewpoints,889,0
+main,libero_object,6,heldout,Language Instructions,1248,0
+main,libero_object,6,heldout,Language Instructions,1250,0
+main,libero_object,6,heldout,Language Instructions,1242,0
+main,libero_object,6,heldout,Light Conditions,2353,0
+main,libero_object,6,heldout,Light Conditions,2315,0
+main,libero_object,6,heldout,Light Conditions,2312,0
+main,libero_object,6,heldout,Objects Layout,1933,0
+main,libero_object,6,heldout,Objects Layout,1903,0
+main,libero_object,6,heldout,Objects Layout,1917,0
+main,libero_object,6,heldout,Robot Initial States,493,0
+main,libero_object,6,heldout,Robot Initial States,499,0
+main,libero_object,6,heldout,Robot Initial States,517,0
+main,libero_object,6,heldout,Sensor Noise,1693,0
+main,libero_object,6,heldout,Sensor Noise,1686,0
+main,libero_object,6,heldout,Sensor Noise,1682,0
+main,libero_object,7,heldout,Background Textures,144,0
+main,libero_object,7,heldout,Background Textures,165,0
+main,libero_object,7,heldout,Background Textures,154,0
+main,libero_object,7,heldout,Camera Viewpoints,962,0
+main,libero_object,7,heldout,Camera Viewpoints,947,0
+main,libero_object,7,heldout,Camera Viewpoints,966,0
+main,libero_object,7,heldout,Language Instructions,1295,0
+main,libero_object,7,heldout,Language Instructions,1283,0
+main,libero_object,7,heldout,Language Instructions,1301,0
+main,libero_object,7,heldout,Light Conditions,2421,0
+main,libero_object,7,heldout,Light Conditions,2418,0
+main,libero_object,7,heldout,Light Conditions,2420,0
+main,libero_object,7,heldout,Objects Layout,2066,0
+main,libero_object,7,heldout,Objects Layout,2067,0
+main,libero_object,7,heldout,Objects Layout,2046,0
+main,libero_object,7,heldout,Robot Initial States,530,0
+main,libero_object,7,heldout,Robot Initial States,526,0
+main,libero_object,7,heldout,Robot Initial States,536,0
+main,libero_object,7,heldout,Sensor Noise,1709,0
+main,libero_object,7,heldout,Sensor Noise,1733,0
+main,libero_object,7,heldout,Sensor Noise,1729,0
+main,libero_object,8,heldout,Background Textures,109,0
+main,libero_object,8,heldout,Background Textures,121,0
+main,libero_object,8,heldout,Background Textures,113,0
+main,libero_object,8,heldout,Camera Viewpoints,988,0
+main,libero_object,8,heldout,Camera Viewpoints,1005,0
+main,libero_object,8,heldout,Camera Viewpoints,1000,0
+main,libero_object,8,heldout,Language Instructions,1350,0
+main,libero_object,8,heldout,Language Instructions,1327,0
+main,libero_object,8,heldout,Language Instructions,1310,0
+main,libero_object,8,heldout,Light Conditions,2379,0
+main,libero_object,8,heldout,Light Conditions,2356,0
+main,libero_object,8,heldout,Light Conditions,2370,0
+main,libero_object,8,heldout,Objects Layout,1971,0
+main,libero_object,8,heldout,Objects Layout,1980,0
+main,libero_object,8,heldout,Objects Layout,1962,0
+main,libero_object,8,heldout,Robot Initial States,565,0
+main,libero_object,8,heldout,Robot Initial States,578,0
+main,libero_object,8,heldout,Robot Initial States,573,0
+main,libero_object,8,heldout,Sensor Noise,1738,0
+main,libero_object,8,heldout,Sensor Noise,1735,0
+main,libero_object,8,heldout,Sensor Noise,1774,0
+main,libero_spatial,0,heldout,Background Textures,17,0
+main,libero_spatial,0,heldout,Background Textures,15,0
+main,libero_spatial,0,heldout,Background Textures,6,0
+main,libero_spatial,0,heldout,Camera Viewpoints,611,0
+main,libero_spatial,0,heldout,Camera Viewpoints,612,0
+main,libero_spatial,0,heldout,Camera Viewpoints,608,0
+main,libero_spatial,0,heldout,Language Instructions,1002,0
+main,libero_spatial,0,heldout,Language Instructions,998,0
+main,libero_spatial,0,heldout,Language Instructions,993,0
+main,libero_spatial,0,heldout,Light Conditions,2115,0
+main,libero_spatial,0,heldout,Light Conditions,2143,0
+main,libero_spatial,0,heldout,Light Conditions,2139,0
+main,libero_spatial,0,heldout,Objects Layout,1726,0
+main,libero_spatial,0,heldout,Objects Layout,1730,0
+main,libero_spatial,0,heldout,Objects Layout,1741,0
+main,libero_spatial,0,heldout,Robot Initial States,282,0
+main,libero_spatial,0,heldout,Robot Initial States,272,0
+main,libero_spatial,0,heldout,Robot Initial States,262,0
+main,libero_spatial,0,heldout,Sensor Noise,1399,0
+main,libero_spatial,0,heldout,Sensor Noise,1397,0
+main,libero_spatial,0,heldout,Sensor Noise,1377,0
+main,libero_spatial,2,heldout,Background Textures,60,0
+main,libero_spatial,2,heldout,Background Textures,42,0
+main,libero_spatial,2,heldout,Background Textures,38,0
+main,libero_spatial,2,heldout,Camera Viewpoints,676,0
+main,libero_spatial,2,heldout,Camera Viewpoints,663,0
+main,libero_spatial,2,heldout,Camera Viewpoints,656,0
+main,libero_spatial,2,heldout,Language Instructions,1079,0
+main,libero_spatial,2,heldout,Language Instructions,1069,0
+main,libero_spatial,2,heldout,Language Instructions,1087,0
+main,libero_spatial,2,heldout,Light Conditions,2188,0
+main,libero_spatial,2,heldout,Light Conditions,2197,0
+main,libero_spatial,2,heldout,Light Conditions,2178,0
+main,libero_spatial,2,heldout,Objects Layout,1774,0
+main,libero_spatial,2,heldout,Objects Layout,1785,0
+main,libero_spatial,2,heldout,Objects Layout,1782,0
+main,libero_spatial,2,heldout,Robot Initial States,353,0
+main,libero_spatial,2,heldout,Robot Initial States,349,0
+main,libero_spatial,2,heldout,Robot Initial States,359,0
+main,libero_spatial,2,heldout,Sensor Noise,1470,0
+main,libero_spatial,2,heldout,Sensor Noise,1445,0
+main,libero_spatial,2,heldout,Sensor Noise,1472,0
+main,libero_spatial,3,heldout,Background Textures,154,0
+main,libero_spatial,3,heldout,Background Textures,163,0
+main,libero_spatial,3,heldout,Background Textures,166,0
+main,libero_spatial,3,heldout,Camera Viewpoints,698,0
+main,libero_spatial,3,heldout,Camera Viewpoints,724,0
+main,libero_spatial,3,heldout,Camera Viewpoints,733,0
+main,libero_spatial,3,heldout,Language Instructions,1122,0
+main,libero_spatial,3,heldout,Language Instructions,1116,0
+main,libero_spatial,3,heldout,Language Instructions,1120,0
+main,libero_spatial,3,heldout,Light Conditions,2308,0
+main,libero_spatial,3,heldout,Light Conditions,2293,0
+main,libero_spatial,3,heldout,Light Conditions,2292,0
+main,libero_spatial,3,heldout,Objects Layout,1964,0
+main,libero_spatial,3,heldout,Objects Layout,1962,0
+main,libero_spatial,3,heldout,Objects Layout,1986,0
+main,libero_spatial,3,heldout,Robot Initial States,369,0
+main,libero_spatial,3,heldout,Robot Initial States,371,0
+main,libero_spatial,3,heldout,Robot Initial States,384,0
+main,libero_spatial,3,heldout,Sensor Noise,1502,0
+main,libero_spatial,3,heldout,Sensor Noise,1488,0
+main,libero_spatial,3,heldout,Sensor Noise,1486,0
+main,libero_spatial,6,heldout,Background Textures,113,0
+main,libero_spatial,6,heldout,Background Textures,114,0
+main,libero_spatial,6,heldout,Background Textures,111,0
+main,libero_spatial,6,heldout,Camera Viewpoints,829,0
+main,libero_spatial,6,heldout,Camera Viewpoints,850,0
+main,libero_spatial,6,heldout,Camera Viewpoints,838,0
+main,libero_spatial,6,heldout,Language Instructions,1205,0
+main,libero_spatial,6,heldout,Language Instructions,1201,0
+main,libero_spatial,6,heldout,Language Instructions,1246,0
+main,libero_spatial,6,heldout,Light Conditions,2251,0
+main,libero_spatial,6,heldout,Light Conditions,2266,0
+main,libero_spatial,6,heldout,Light Conditions,2270,0
+main,libero_spatial,6,heldout,Objects Layout,1879,0
+main,libero_spatial,6,heldout,Objects Layout,1859,0
+main,libero_spatial,6,heldout,Objects Layout,1853,0
+main,libero_spatial,6,heldout,Robot Initial States,470,0
+main,libero_spatial,6,heldout,Robot Initial States,476,0
+main,libero_spatial,6,heldout,Robot Initial States,472,0
+main,libero_spatial,6,heldout,Sensor Noise,1594,0
+main,libero_spatial,6,heldout,Sensor Noise,1589,0
+main,libero_spatial,6,heldout,Sensor Noise,1616,0
+main,libero_spatial,7,heldout,Background Textures,226,0
+main,libero_spatial,7,heldout,Background Textures,218,0
+main,libero_spatial,7,heldout,Background Textures,228,0
+main,libero_spatial,7,heldout,Camera Viewpoints,877,0
+main,libero_spatial,7,heldout,Camera Viewpoints,889,0
+main,libero_spatial,7,heldout,Camera Viewpoints,896,0
+main,libero_spatial,7,heldout,Language Instructions,1261,0
+main,libero_spatial,7,heldout,Language Instructions,1265,0
+main,libero_spatial,7,heldout,Language Instructions,1280,0
+main,libero_spatial,7,heldout,Light Conditions,2372,0
+main,libero_spatial,7,heldout,Light Conditions,2374,0
+main,libero_spatial,7,heldout,Light Conditions,2356,0
+main,libero_spatial,7,heldout,Objects Layout,2044,0
+main,libero_spatial,7,heldout,Objects Layout,2050,0
+main,libero_spatial,7,heldout,Objects Layout,2037,0
+main,libero_spatial,7,heldout,Robot Initial States,506,0
+main,libero_spatial,7,heldout,Robot Initial States,497,0
+main,libero_spatial,7,heldout,Robot Initial States,528,0
+main,libero_spatial,7,heldout,Sensor Noise,1653,0
+main,libero_spatial,7,heldout,Sensor Noise,1642,0
+main,libero_spatial,7,heldout,Sensor Noise,1629,0
+main,libero_spatial,8,heldout,Background Textures,124,0
+main,libero_spatial,8,heldout,Background Textures,125,0
+main,libero_spatial,8,heldout,Background Textures,126,0
+main,libero_spatial,8,heldout,Camera Viewpoints,940,0
+main,libero_spatial,8,heldout,Camera Viewpoints,918,0
+main,libero_spatial,8,heldout,Camera Viewpoints,934,0
+main,libero_spatial,8,heldout,Language Instructions,1317,0
+main,libero_spatial,8,heldout,Language Instructions,1304,0
+main,libero_spatial,8,heldout,Language Instructions,1287,0
+main,libero_spatial,8,heldout,Light Conditions,2280,0
+main,libero_spatial,8,heldout,Light Conditions,2278,0
+main,libero_spatial,8,heldout,Light Conditions,2277,0
+main,libero_spatial,8,heldout,Objects Layout,1908,0
+main,libero_spatial,8,heldout,Objects Layout,1910,0
+main,libero_spatial,8,heldout,Objects Layout,1899,0
+main,libero_spatial,8,heldout,Robot Initial States,551,0
+main,libero_spatial,8,heldout,Robot Initial States,539,0
+main,libero_spatial,8,heldout,Robot Initial States,542,0
+main,libero_spatial,8,heldout,Sensor Noise,1669,0
+main,libero_spatial,8,heldout,Sensor Noise,1679,0
+main,libero_spatial,8,heldout,Sensor Noise,1684,0
+main,libero_spatial,9,heldout,Background Textures,249,0
+main,libero_spatial,9,heldout,Background Textures,256,0
+main,libero_spatial,9,heldout,Background Textures,254,0
+main,libero_spatial,9,heldout,Camera Viewpoints,949,0
+main,libero_spatial,9,heldout,Camera Viewpoints,962,0
+main,libero_spatial,9,heldout,Camera Viewpoints,959,0
+main,libero_spatial,9,heldout,Language Instructions,1331,0
+main,libero_spatial,9,heldout,Language Instructions,1356,0
+main,libero_spatial,9,heldout,Language Instructions,1366,0
+main,libero_spatial,9,heldout,Light Conditions,2384,0
+main,libero_spatial,9,heldout,Light Conditions,2390,0
+main,libero_spatial,9,heldout,Light Conditions,2388,0
+main,libero_spatial,9,heldout,Objects Layout,2095,0
+main,libero_spatial,9,heldout,Objects Layout,2103,0
+main,libero_spatial,9,heldout,Objects Layout,2088,0
+main,libero_spatial,9,heldout,Robot Initial States,583,0
+main,libero_spatial,9,heldout,Robot Initial States,594,0
+main,libero_spatial,9,heldout,Robot Initial States,577,0
+main,libero_spatial,9,heldout,Sensor Noise,1718,0
+main,libero_spatial,9,heldout,Sensor Noise,1706,0
+main,libero_spatial,9,heldout,Sensor Noise,1715,0

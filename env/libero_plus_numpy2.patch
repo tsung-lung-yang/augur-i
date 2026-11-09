@@ -1,0 +1,13 @@
+diff --git a/libero/libero/envs/env_wrapper.py b/libero/libero/envs/env_wrapper.py
+index be94797..9fc4eb2 100644
+--- a/libero/libero/envs/env_wrapper.py
++++ b/libero/libero/envs/env_wrapper.py
+@@ -102,7 +102,7 @@ def plasma_fractal(mapsize=256, wibbledecay=3):
+     'mapsize' must be a power of two.
+     """
+     assert (mapsize & (mapsize - 1) == 0)
+-    maparray = np.empty((mapsize, mapsize), dtype=np.float_)
++    maparray = np.empty((mapsize, mapsize), dtype=np.float64)
+     maparray[0, 0] = 0
+     stepsize = mapsize
+     wibble = 100
