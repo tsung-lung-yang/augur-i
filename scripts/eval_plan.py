@@ -1,4 +1,8 @@
-"""Run a registered LIBERO-Plus evaluation plan for one checkpoint.
+"""Run a registered LIBERO-Plus or LIBERO-PRO evaluation plan for one checkpoint.
+
+LIBERO-PRO: --plan env/eval_plan_pro.csv --env_type libero
+  --suites libero_spatial_swap,libero_object_swap,libero_goal_swap,libero_10_swap
+  (run in the augur-pro env).
 
 Reads env/eval_plan_plus.csv (scripts/make_eval_plan.py), keeps the rows of one
 phase, and for each suite runs scripts/eval_mixed.py with batch-size chunks of

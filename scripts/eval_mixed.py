@@ -88,6 +88,12 @@ def create_mixed(
 
 L.create_libero_envs = create_mixed
 
+# LIBERO-PRO suites (libero_<suite>_<axis>) keep the step limit of their base suite, as LIBERO-Plus
+# variants do; without this LeRobot would fall back to 500 steps (LOG-005).
+for _b in list(L.TASK_SUITE_MAX_STEPS):
+    for _ax in ("swap", "object", "lan", "task", "env", "temp"):
+        L.TASK_SUITE_MAX_STEPS.setdefault(f"{_b}_{_ax}", L.TASK_SUITE_MAX_STEPS[_b])
+
 # LeRobot's --policy.use_amp uses torch's default CUDA autocast dtype (float16). The registered
 # precision is bfloat16 (LOG-002, LOG-004), so set the default before LeRobot reads it.
 import torch as _torch  # noqa: E402
