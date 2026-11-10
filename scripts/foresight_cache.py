@@ -208,6 +208,8 @@ def run_libero(embed, flow, d):
             flush(buf)
     np.save(done_f, done)
     print(f"libero done: {int(done.sum())}/{n_eps} episodes", flush=True)
+    if done.all() and not args.limit:
+        (out / "libero.complete").touch()
 
 
 def run_ssv2(embed, flow, d):
@@ -277,6 +279,8 @@ def run_ssv2(embed, flow, d):
     flush_pending()
     np.save(done_f, done)
     print(f"ssv2 done: {int(done.sum())}/{len(clips)} clips", flush=True)
+    if done.all() and not args.limit:
+        (out / "ssv2.complete").touch()
 
 
 if __name__ == "__main__":
