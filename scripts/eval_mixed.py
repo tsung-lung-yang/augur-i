@@ -15,6 +15,9 @@ Environment variables:
   episodes get success = NaN; the remaining chunks still run.
   AUGUR_DIAG_LANG    diagnostics only: replace every sub-env's instruction with
                      this string. Never set in registered evaluations.
+Foresight checkpoints (augur_train.json names a target, LOG-005): the foresight module is
+installed on the loaded policy and its weights loaded from augur.safetensors; checkpoints
+without one (T0) are evaluated exactly as before.
 Called by scripts/eval_plan.py; all other arguments are lerobot-eval arguments.
 """
 import json
@@ -129,6 +132,27 @@ def _eval_policy_safe(*args, **kwargs):
 
 
 E.eval_policy = _eval_policy_safe
+
+_make_policy = E.make_policy
+
+
+def _make_policy_augur(*args, **kwargs):
+    policy = _make_policy(*args, **kwargs)
+    cfg = kwargs.get("cfg", args[0] if args else None)
+    path = getattr(cfg, "pretrained_path", None)
+    if path and os.path.isdir(str(path)):
+        import sys
+
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import augur_foresight as AF
+
+        fs = AF.load_for_eval(policy, path)
+        if fs is not None:
+            print(f"[eval_mixed] foresight module installed: {fs.target}-{fs.mode} K={fs.k}", flush=True)
+    return policy
+
+
+E.make_policy = _make_policy_augur
 
 if __name__ == "__main__":
     E.main()

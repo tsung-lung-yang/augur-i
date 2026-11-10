@@ -196,10 +196,15 @@ policy = make_policy(cfg, ds_meta=ds.meta)
 TA.inject_lora(policy)
 fs = AF.install(policy, args.target, "tr", k=args.k)
 fs.ema_tau = args.ema_tau
+FLOW_STATS = {}
 if args.target == "t5":
+    # each source standardised with its own statistics (LOG-005); the module keeps the LIBERO
+    # statistics, which fine-tuning uses
     st = json.load(open(cache / "flow_stats.json"))
-    fs.tgt_mean.copy_(torch.tensor(st["mean"]))
-    fs.tgt_std.copy_(torch.tensor(st["std"]))
+    FLOW_STATS = {i: (torch.tensor(st[s_]["mean"], device=dev), torch.tensor(st[s_]["std"], device=dev))
+                  for i, s_ in ((0, "libero"), (1, "ssv2")) if s_ in st}
+    fs.tgt_mean.copy_(FLOW_STATS[0][0])
+    fs.tgt_std.copy_(FLOW_STATS[0][1])
 pre, _ = make_pre_post_processors(policy_cfg=cfg, dataset_stats=ds.meta.stats)
 m = policy.model
 vwe = m.vlm_with_expert
@@ -263,12 +268,17 @@ def predict(batch):
     return fs.predict(outs[0][:, fs._q0: fs._q0 + args.k])
 
 
-def make_target(tgt):
+def make_target(tgt, src):
     tgt = tgt.to(dev)
     if args.target == "t3":
         with torch.no_grad():
             return AF.t3_target(policy, tgt).float()
-    return AF.standardise(fs, tgt)
+    src = src.to(dev)[:, None, None]
+    out_ = torch.empty_like(tgt, dtype=torch.float32)
+    for i, (mu, sd) in FLOW_STATS.items():
+        z = (tgt.float() - mu) / sd
+        out_ = torch.where(src == i, z, out_)
+    return out_
 
 
 def autocast():
@@ -286,7 +296,7 @@ def validate():
             batch = to_model_batch(raw)
             with autocast():
                 pred = predict(batch).float()
-                tgt = make_target(raw["tgt"])
+                tgt = make_target(raw["tgt"], torch.as_tensor(raw["src"]))
             losses.append(((pred - tgt) ** 2).mean(dim=(1, 2)).cpu())
             errs.append(AF.foresight_error(pred, tgt).cpu())
         res[f"val_{src}_loss"] = float(torch.cat(losses).mean())
@@ -323,7 +333,7 @@ for step in range(args.steps):
     for g in opt.param_groups:
         g["lr"] = lr_at(step)
     with autocast():
-        tgt = make_target(tgt_raw)
+        tgt = make_target(tgt_raw, src)
         pred = predict(batch).float()
     per = ((pred - tgt) ** 2).mean(dim=(1, 2))
     loss = per.mean()
@@ -333,13 +343,16 @@ for step in range(args.steps):
     opt.step()
     if args.target == "t3":
         fs.ema_update(m)
-    acc.append((float(loss), float(per[src == 0].mean()), float(per[src == 1].mean()) if n_h else float("nan"), gn))
+    pd = per.detach()
+    acc.append((float(pd.mean()), float(pd[src == 0].mean()), float(pd[src == 1].mean()) if n_h else float("nan"), gn))
     s1 = step + 1
     if s1 % 50 == 0 or s1 == args.steps:
         a = np.array(acc)
         acc = []
         sps = (time.time() - t0) / s1
-        row = [s1, lr_at(step), *np.nanmean(a, 0).round(5)[:3], round(float(a[:, 3].mean()), 3), round(sps, 3)]
+        with np.errstate(all="ignore"):
+            mean3 = [float(np.mean(a[:, i])) if not np.isnan(a[:, i]).all() else float("nan") for i in range(3)]
+        row = [s1, lr_at(step), *[round(x, 5) for x in mean3], round(float(a[:, 3].mean()), 3), round(sps, 3)]
         v = validate() if (s1 % args.val_every == 0 or s1 == args.steps) else {}
         row += [round(v[k], 5) if k in v else "" for k in ("val_libero_loss", "val_libero_ferr", "val_ssv2_loss", "val_ssv2_ferr")]
         log.writerow(row)

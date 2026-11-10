@@ -12,7 +12,7 @@ Sources
   libero  lerobot/libero, main camera observation.images.image, 10 fps -> future = +10 frames
   ssv2    the registered SSv2 subset (env/ssv2_subset_50k.json) extracted at 2 fps by
           scripts/ssv2_prepare.py -> future = +2 frames
-Output  <out>/<source>_{emb,flow,future,valid}.npy (+ ssv2_rows.npz, flow_stats.json)
+Output  <out>/<source>_{emb,flow,future,valid}.npy (+ ssv2_rows.npz, flow_stats.json per source)
 Resumable per episode / clip block (<source>_done.npy).
 
 Usage
@@ -37,7 +37,7 @@ import torch.nn.functional as F
 
 p = argparse.ArgumentParser()
 p.add_argument("--source", choices=["libero", "ssv2"])
-p.add_argument("--stats", action="store_true", help="compute flow mean/std over valid libero+ssv2 flows")
+p.add_argument("--stats", action="store_true", help="compute per-source flow mean/std over valid flows")
 p.add_argument("--out", required=True)
 p.add_argument("--frames", default="~/augur/data/ssv2_frames")
 p.add_argument("--subset", default="env/ssv2_subset_50k.json")
@@ -56,18 +56,21 @@ dev = "cuda" if torch.cuda.is_available() else "cpu"
 
 # ------------------------------------------------------------------ stats only
 if args.stats:
-    vals = []
+    # per-source statistics (LOG-005): each source is standardised with its own mean/std, so human
+    # video (larger flow, camera motion) does not dominate the t5 loss, and fine-tuning on LIBERO uses
+    # the LIBERO scale.
+    stats = {}
     for src in ("libero", "ssv2"):
         f, v = out / f"{src}_flow.npy", out / f"{src}_valid.npy"
-        if f.exists():
-            fl, va = np.load(f, mmap_mode="r"), np.load(v)
-            idx = np.flatnonzero(va)
-            idx = idx[np.linspace(0, len(idx) - 1, min(len(idx), 200000)).astype(int)]
-            vals.append(np.asarray(fl[idx], dtype=np.float32).reshape(len(idx), -1, 32))
-    x = np.concatenate(vals).reshape(-1, 32)
-    stats = {"mean": x.mean(0).tolist(), "std": (x.std(0) + 1e-6).tolist(), "n": int(len(x))}
+        if not f.exists():
+            continue
+        fl, va = np.load(f, mmap_mode="r"), np.load(v)
+        idx = np.flatnonzero(va)
+        idx = idx[np.linspace(0, len(idx) - 1, min(len(idx), 200000)).astype(int)]
+        x = np.asarray(fl[idx], dtype=np.float32).reshape(-1, 32)
+        stats[src] = {"mean": x.mean(0).tolist(), "std": (x.std(0) + 1e-6).tolist(), "n_samples": int(len(idx))}
+        print(f"{src}: flow stats over {len(idx)} samples; mean |mean| {np.abs(x.mean(0)).mean():.5f} mean std {x.std(0).mean():.5f}")
     json.dump(stats, open(out / "flow_stats.json", "w"))
-    print("flow stats over", stats["n"], "tokens; mean |mean|", float(np.abs(x.mean(0)).mean()), "mean std", float(x.std(0).mean()))
     sys.exit(0)
 
 

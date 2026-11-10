@@ -6,6 +6,7 @@ T = types.ModuleType("lerobot.scripts.lerobot_train")
 T.make_policy = lambda *a, **k: None
 T.update_policy = lambda *a, **k: None
 T.main = lambda: None
+T.make_pre_post_processors = lambda *a, **k: (None, None)
 for name in ["lerobot", "lerobot.scripts"]:
     sys.modules[name] = types.ModuleType(name)
 sys.modules["lerobot.scripts.lerobot_train"] = T
