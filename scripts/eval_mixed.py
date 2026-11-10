@@ -85,6 +85,15 @@ def create_mixed(
 
 L.create_libero_envs = create_mixed
 
+# LeRobot's --policy.use_amp uses torch's default CUDA autocast dtype (float16). The registered
+# precision is bfloat16 (LOG-002, LOG-004), so set the default before LeRobot reads it.
+import torch as _torch  # noqa: E402
+
+_AMP = {"bf16": _torch.bfloat16, "fp16": _torch.float16}[os.environ.get("AUGUR_AMP_DTYPE", "bf16")]
+if _torch.cuda.is_available():
+    _torch.set_autocast_dtype("cuda", _AMP)
+
+
 import lerobot.scripts.lerobot_eval as E  # noqa: E402
 
 _eval_policy = E.eval_policy
