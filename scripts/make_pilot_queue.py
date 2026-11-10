@@ -99,8 +99,12 @@ jobs += [
 ]
 # wait until the T0 learning-curve evaluation (auto-started after T0 training) has finished, so
 # no training job shares the GPU with it
-jobs.append({"name": "wait_t0_curve", "conda": "augur", "done": "runs/eval/t0_curve_s0/curve.csv",
-             "cmd": "while [ ! -f runs/eval/t0_curve_s0/curve.csv ]; do sleep 60; done"})
+# curve.csv is written row by row, so wait for the evaluation process to exit and then require
+# all 12 checkpoints x 4 suites (fails, and stops the queue, if the evaluation died early)
+jobs.append({"name": "wait_t0_curve", "conda": "augur", "done": "runs/eval/t0_curve_s0/curve.complete",
+             "cmd": ("while pgrep -f eval_dev_vanilla.py > /dev/null; do sleep 60; done; "
+                     "test $(tail -n +2 runs/eval/t0_curve_s0/curve.csv | wc -l) -eq 48 && "
+                     "touch runs/eval/t0_curve_s0/curve.complete")})
 # 2. smoke
 train_job("smoke_ft_t3_tt", "runs/train/smoke_ft_t3_tt", 100, 0, "t3", "tt", None)
 eval_jobs("smoke_eval_t3_tt", ckpt("runs/train/smoke_ft_t3_tt", 100), "runs/eval/smoke_ft_t3_tt", limit=8)
