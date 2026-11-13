@@ -45,6 +45,12 @@ import os
 import sys
 import types
 
+# LOG-007: the CUDA caching allocator fragments over a long TT run (variable-length language
+# tokens, two prefix passes per step), reserved memory creeps to the 12 GB limit and the Windows
+# driver then pages GPU memory to system RAM, slowing training 2-3x. Expandable segments only
+# change how memory is reserved, not any computation. Must be set before torch is imported.
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
 import numpy as np
 
 import torch
