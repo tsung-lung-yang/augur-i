@@ -100,6 +100,14 @@ def quadrant_pool(tokens):
                         g[:, h:, :h].mean((1, 2)), g[:, h:, h:].mean((1, 2))], dim=1)
 
 
+import os as _os
+
+# LOG-007: TT training through the KV cache (one prefix pass). Set AUGUR_TT_CACHED=0 for the
+# original two-pass implementation (used for T3-TT seed 0); the two are numerically equivalent
+# (scripts/test_tt_cached.py).
+TT_CACHED_TRAINING = _os.environ.get("AUGUR_TT_CACHED", "1") == "1"
+
+
 def install(policy, target: str, mode: str, k: int = 4):
     """Attach Foresight to policy.model and patch its prefix/suffix/forward/inference."""
     import lerobot.policies.smolvla.modeling_smolvla as M
@@ -155,6 +163,29 @@ def install(policy, target: str, mode: str, k: int = 4):
         prefix_embs, prefix_pad, prefix_att = m.embed_prefix(images, img_masks, lang_tokens, lang_masks, state=state)
         lp = prefix_embs.shape[1]
         z_hat = None
+        if fs.mode == "tt" and TT_CACHED_TRAINING:
+            # LOG-007: one prefix pass that fills the KV cache (with gradients), then the suffix
+            # attends to the cached prefix -- the same computation as the full pass below
+            # (prefix tokens never attend to the suffix), with one prefix pass instead of two.
+            p_out, cache = prefix_only(prefix_embs, prefix_pad, prefix_att)
+            z_hat = fs.predict(queries_of(p_out))
+            fs.last_pred = z_hat
+            fs._cond = fs.cond_tokens(z_hat, prefix_embs.dtype)
+            try:
+                suffix_embs, suffix_pad, suffix_att = m.embed_suffix(x_t, time)
+            finally:
+                fs._cond = None
+            b, sl = suffix_pad.shape
+            p2d = prefix_pad[:, None, :].expand(b, sl, lp).clone()
+            p2d[:, :, fs._q0:lp] = False
+            s2d = M.make_att_2d_masks(suffix_pad, suffix_att)
+            full = torch.cat([p2d, s2d], dim=2)
+            pos = (torch.sum(prefix_pad, dim=-1)[:, None] - k) + torch.cumsum(suffix_pad, dim=1) - 1
+            outs, _ = vwe.forward(attention_mask=full, position_ids=pos, past_key_values=cache,
+                                  inputs_embeds=[None, suffix_embs], use_cache=True)
+            suffix_out = outs[1][:, -chunk:].to(dtype=torch.float32)
+            v_t = m.action_out_proj(suffix_out)
+            return F.mse_loss(u_t, v_t, reduction="none")
         if fs.mode == "tt":
             p_out, _ = prefix_only(prefix_embs, prefix_pad, prefix_att)
             z_hat = fs.predict(queries_of(p_out))
