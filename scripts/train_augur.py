@@ -45,11 +45,10 @@ import os
 import sys
 import types
 
-# LOG-007: the CUDA caching allocator fragments over a long TT run (variable-length language
-# tokens, two prefix passes per step), reserved memory creeps to the 12 GB limit and the Windows
-# driver then pages GPU memory to system RAM, slowing training 2-3x. Expandable segments only
-# change how memory is reserved, not any computation. Must be set before torch is imported.
-os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+# LOG-007: in TT runs the CUDA caching allocator's reserved memory creeps to the 12 GB limit and
+# the Windows driver then pages GPU memory to system RAM (2-3x slower). expandable_segments made it
+# worse under WSL (T5-TT slow from the first steps), so it is not used; instead the cache is
+# released every AUGUR_EMPTY_CACHE steps (default 500). Neither changes any computation.
 
 import numpy as np
 
@@ -284,10 +283,17 @@ def make_policy_with_lora(*args, **kwargs):
     return policy
 
 
+_EMPTY_EVERY = int(os.environ.get("AUGUR_EMPTY_CACHE", "500"))
+_STEP = [0]
+
+
 def update_policy_with_aug(train_metrics, policy, batch, *args, **kwargs):
     out = _update_policy(train_metrics, policy, augment_batch(batch), *args, **kwargs)
     if FS_TARGET == "t3":
         _FS["fs"].ema_update(_FS["policy_ref"].model)
+    _STEP[0] += 1
+    if _EMPTY_EVERY and _STEP[0] % _EMPTY_EVERY == 0 and torch.cuda.is_available():
+        torch.cuda.empty_cache()  # LOG-007: release fragmented cached blocks
     return out
 
 
